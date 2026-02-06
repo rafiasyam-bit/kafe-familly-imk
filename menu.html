@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kafe Family | Menu</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS buatan sendiri -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand d-flex align-items-center gap-2 fw-bold"
+          href="index.html"
+        >
+          <span class="brand-logo">KF</span>
+          <span>Kafe Family</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-lg-2">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Kontak</a>
+            </li>
+          </ul>
+
+          <button
+            class="btn btn-warning ms-lg-3 mt-3 mt-lg-0 fw-semibold"
+            data-bs-toggle="modal"
+            data-bs-target="#modalReservasi"
+          >
+            Reservasi
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER MENU -->
+    <header class="page-header">
+      <div class="container text-center text-white">
+        <h1 class="fw-bold mb-2">Daftar Menu</h1>
+        <p class="mb-0 text-white-50">
+          Pilihan menu terbaik Kafe Family untuk menemani nongkrong & nugas
+          kamu.
+        </p>
+      </div>
+    </header>
+
+    <!-- MENU MINUMAN -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="fw-bold mb-4">☕ Minuman</h2>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+              <img
+                src="assets/menu1.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Es Kopi Susu"
+              />
+              <div class="card-body p-4">
+                <h5 class="fw-bold">Es Kopi Susu</h5>
+                <p class="text-muted mb-2">Kopi creamy dengan rasa seimbang.</p>
+                <p class="fw-bold mb-0 text-warning">Rp 15.000</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+              <img
+                src="assets/minuman2.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Cappuccino"
+              />
+              <div class="card-body p-4">
+                <h5 class="fw-bold">Cappuccino</h5>
+                <p class="text-muted mb-2">
+                  Kopi dengan foam lembut dan wangi.
+                </p>
+                <p class="fw-bold mb-0 text-warning">Rp 18.000</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+              <img
+                src="assets/minuman3.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Chocolate Latte"
+              />
+              <div class="card-body p-4">
+                <h5 class="fw-bold">Chocolate Latte</h5>
+                <p class="text-muted mb-2">
+                  Coklat manis creamy, favorit semua.
+                </p>
+                <p class="fw-bold mb-0 text-warning">Rp 17.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU MAKANAN -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="fw-bold mb-4">🍛 Makanan</h2>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+              <img
+                src="assets/menu2.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Mie Goreng Special"
+              />
+              <div class="card-body p-4">
+                <h5 class="fw-bold">Mie Goreng Special</h5>
+                <p class="text-muted mb-2">Mie gurih dengan topping lengkap.</p>
+                <p class="fw-bold mb-0 text-warning">Rp 18.000</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+              <img
+                src="assets/makanan2.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Nasi Ayam Crispy"
+              />
+              <div class="card-body p-4">
+                <h5 class="fw-bold">Nasi Ayam Crispy</h5>
+                <p class="text-muted mb-2">
+                  Ayam renyah dengan sambal pilihan.
+                </p>
+                <p class="fw-bold mb-0 text-warning">Rp 22.000</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+              <img
+                src="assets/makanan3.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Rice Bowl Beef"
+              />
+              <div class="card-body p-4">
+                <h5 class="fw-bold">Rice Bowl Beef</h5>
+                <p class="text-muted mb-2">Daging beef dengan saus spesial.</p>
+                <p class="fw-bold mb-0 text-warning">Rp 25.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU SNACK -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="fw-bold mb-4">🍟 Snack</h2>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+              <img
+                src="assets/menu3.jpg"
+                class="card-img-top rounded-top-4"
+                alt="French Fries"
+              />
+              <div class="card-body p-4">
+                <h5 class="fw-bold">French Fries</h5>
+                <p class="text-muted mb-2">
+                  Kentang renyah, cocok buat cemilan.
+                </p>
+                <p class="fw-bold mb-0 text-warning">Rp 12.000</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+              <img
+                src="assets/snack2.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Chicken Popcorn"
+              />
+              <div class="card-body p-4">
+                <h5 class="fw-bold">Chicken Popcorn</h5>
+                <p class="text-muted mb-2">Ayam crispy bite-size, nagih!</p>
+                <p class="fw-bold mb-0 text-warning">Rp 16.000</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+              <img
+                src="assets/snack3.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Toast Keju"
+              />
+              <div class="card-body p-4">
+                <h5 class="fw-bold">Toast Keju</h5>
+                <p class="text-muted mb-2">Roti panggang isi keju meleleh.</p>
+                <p class="fw-bold mb-0 text-warning">Rp 14.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-4 bg-black text-white">
+      <div class="container text-center">
+        <p class="mb-1 fw-semibold">Kafe Family</p>
+        <p class="text-white-50 mb-0">
+          © 2026 - Website Projek IMK | Dibuat oleh Rafi Asyam Firjatullah
+        </p>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="modalReservasi" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold">Reservasi Meja</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <p class="text-muted">Isi data singkat untuk reservasi.</p>
+
+            <form id="formReservasi">
+              <div class="mb-3">
+                <label class="form-label">Nama</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Masukkan nama"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">No. HP</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  placeholder="08xxxxxxxxxx"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Tanggal</label>
+                <input type="date" class="form-control" />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Jumlah Orang</label>
+                <select class="form-select">
+                  <option selected>Pilih jumlah orang</option>
+                  <option>1 - 2</option>
+                  <option>3 - 4</option>
+                  <option>5 - 6</option>
+                  <option>7+</option>
+                </select>
+              </div>
+
+              <button
+                type="button"
+                class="btn btn-warning w-100 fw-semibold"
+                id="btnKirimReservasi"
+                data-bs-dismiss="modal"
+              >
+                Kirim Reservasi
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const formReservasi = document.getElementById("formReservasi");
+      const btnKirimReservasi = document.getElementById("btnKirimReservasi");
+
+      btnKirimReservasi.addEventListener("click", function () {
+        formReservasi.reset();
+      });
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
